@@ -22,7 +22,7 @@ import opencv from '../assets/OpenCv.png'
 
 const About = () => {
   return (
-    <div id="about" className="w-full px-[12%] py-10 scroll-mt-20">
+    <div id="about" className="w-full px-4 sm:px-8 md:px-[8%] lg:px-[12%] py-10 scroll-mt-20">
     <h4 className="text-center mb-2 text-lg font-Ovo">Introduction</h4>
     <h2 className="text-center text-5xl font-Ovo">About me</h2>
 
@@ -43,7 +43,7 @@ Currently pursuing my B.Tech at MCKV Institute of Engineering, I’ve worked on 
 My interests lie in crafting responsive, user-centric web applications and solving real-world problems through machine learning. I’m always eager to learn, build, and contribute to impactful tech solutions.
 </p>
 
-            <ul className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl">
+            <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-2xl">
                 <li className="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black
                 dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50
                 ">
@@ -82,7 +82,7 @@ My interests lie in crafting responsive, user-centric web applications and solvi
             </ul>
             <h4 className="my-6 text-gray-700 font-Ovo dark:text-white/80">Tools i use</h4>
 
-            <ul className="flex items-center gap-3 sm:gap-5">
+            <ul className="flex flex-wrap items-center gap-3 sm:gap-5">
 
                 <li className="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
                     <img src={ReactLogo} alt="" className="w-5 sm:w-7"/>
