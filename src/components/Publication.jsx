@@ -25,7 +25,7 @@ const publications = [
 
 const Publication = () => (
   <section id="publication" className="w-full px-[12%] py-10 scroll-mt-20 transition-colors max-w-7xl mx-auto">
-    <h2 className="text-center text-5xl font-Ovo mb-8 text-white flex items-center justify-center gap-3">
+    <h2 className="text-center text-5xl font-Ovo mb-8 text-gray-900 dark:text-white flex items-center justify-center gap-3">
       <BookOpen className="w-7 h-7 text-white" />
       My Publications
     </h2>
