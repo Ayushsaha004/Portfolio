@@ -12,7 +12,7 @@ const Work = () => {
         Here, you'll find a curated collection of my latest work — from interactive frontend websites to powerful AI-driven applications. Each project reflects my passion for building scalable, responsive interfaces and solving real-world problems with technology.
     </p>
 
-    <div className="grid grid-cols-4 my-10 gap-5 dark:text-black">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 my-10 gap-5 dark:text-black">
         <div className="aspect-square bg-[url('./assets/work-1.png')] bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group">
 
             <div className="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
